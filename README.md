@@ -1,5 +1,7 @@
 # FIA 4
 
+> 本仓库迁入 `semicoder-dev/fia`，保留独立框架历史与已有发行。活跃开发位于 [malatang/framework/fia](https://github.com/semicoder-dev/malatang/tree/main/framework/fia)，稳定后再独立拆出。此仓库暂停独立 npm 发布；下方内容为迁入共仓前的历史使用说明。
+
 用一套 TypeScript API 构建同时面向人类和 agent 的 macOS 14+、Apple Silicon 应用。框架提供桌面 UI、应用 CLI、TypeScript 脚本 SDK 和随应用更新的 skill。默认 React + Vite 前端和 Bun 后端，预编译 Swift 宿主提供原生窗口和系统能力。
 
 ```text
